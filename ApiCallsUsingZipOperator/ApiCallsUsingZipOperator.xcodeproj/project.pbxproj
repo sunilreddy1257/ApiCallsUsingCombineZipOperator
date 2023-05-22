@@ -13,6 +13,11 @@
 		105C6A702A1B7FCF00928F8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105C6A6E2A1B7FCF00928F8A /* Main.storyboard */; };
 		105C6A722A1B7FD000928F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105C6A712A1B7FD000928F8A /* Assets.xcassets */; };
 		105C6A752A1B7FD000928F8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105C6A732A1B7FD000928F8A /* LaunchScreen.storyboard */; };
+		105C6A7E2A1B886200928F8A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105C6A7D2A1B886200928F8A /* NetworkManager.swift */; };
+		105C6A802A1B886F00928F8A /* UrlsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105C6A7F2A1B886F00928F8A /* UrlsList.swift */; };
+		105C6A822A1B888100928F8A /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105C6A812A1B888100928F8A /* PostModel.swift */; };
+		105C6A842A1B889C00928F8A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105C6A832A1B889C00928F8A /* ViewModel.swift */; };
+		105C6A872A1B8C1B00928F8A /* UsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105C6A862A1B8C1B00928F8A /* UsersModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		105C6A712A1B7FD000928F8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		105C6A742A1B7FD000928F8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		105C6A762A1B7FD000928F8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		105C6A7D2A1B886200928F8A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		105C6A7F2A1B886F00928F8A /* UrlsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlsList.swift; sourceTree = "<group>"; };
+		105C6A812A1B888100928F8A /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		105C6A832A1B889C00928F8A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		105C6A862A1B8C1B00928F8A /* UsersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,10 @@
 		105C6A672A1B7FCF00928F8A /* ApiCallsUsingZipOperator */ = {
 			isa = PBXGroup;
 			children = (
+				105C6A7D2A1B886200928F8A /* NetworkManager.swift */,
+				105C6A7F2A1B886F00928F8A /* UrlsList.swift */,
+				105C6A852A1B88A500928F8A /* ViewModel */,
+				105C6A7C2A1B884F00928F8A /* Model */,
 				105C6A682A1B7FCF00928F8A /* AppDelegate.swift */,
 				105C6A6A2A1B7FCF00928F8A /* SceneDelegate.swift */,
 				105C6A6C2A1B7FCF00928F8A /* ViewController.swift */,
@@ -65,6 +79,23 @@
 				105C6A762A1B7FD000928F8A /* Info.plist */,
 			);
 			path = ApiCallsUsingZipOperator;
+			sourceTree = "<group>";
+		};
+		105C6A7C2A1B884F00928F8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				105C6A812A1B888100928F8A /* PostModel.swift */,
+				105C6A862A1B8C1B00928F8A /* UsersModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		105C6A852A1B88A500928F8A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				105C6A832A1B889C00928F8A /* ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105C6A7E2A1B886200928F8A /* NetworkManager.swift in Sources */,
+				105C6A822A1B888100928F8A /* PostModel.swift in Sources */,
 				105C6A6D2A1B7FCF00928F8A /* ViewController.swift in Sources */,
 				105C6A692A1B7FCF00928F8A /* AppDelegate.swift in Sources */,
 				105C6A6B2A1B7FCF00928F8A /* SceneDelegate.swift in Sources */,
+				105C6A802A1B886F00928F8A /* UrlsList.swift in Sources */,
+				105C6A872A1B8C1B00928F8A /* UsersModel.swift in Sources */,
+				105C6A842A1B889C00928F8A /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
