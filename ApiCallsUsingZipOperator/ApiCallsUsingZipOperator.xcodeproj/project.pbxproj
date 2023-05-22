@@ -18,6 +18,7 @@
 		105C6A822A1B888100928F8A /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105C6A812A1B888100928F8A /* PostModel.swift */; };
 		105C6A842A1B889C00928F8A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105C6A832A1B889C00928F8A /* ViewModel.swift */; };
 		105C6A872A1B8C1B00928F8A /* UsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105C6A862A1B8C1B00928F8A /* UsersModel.swift */; };
+		105C6A892A1B9A5A00928F8A /* CombineDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105C6A882A1B9A5A00928F8A /* CombineDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		105C6A812A1B888100928F8A /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		105C6A832A1B889C00928F8A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		105C6A862A1B8C1B00928F8A /* UsersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModel.swift; sourceTree = "<group>"; };
+		105C6A882A1B9A5A00928F8A /* CombineDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			children = (
 				105C6A812A1B888100928F8A /* PostModel.swift */,
 				105C6A862A1B8C1B00928F8A /* UsersModel.swift */,
+				105C6A882A1B9A5A00928F8A /* CombineDataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				105C6A822A1B888100928F8A /* PostModel.swift in Sources */,
 				105C6A6D2A1B7FCF00928F8A /* ViewController.swift in Sources */,
 				105C6A692A1B7FCF00928F8A /* AppDelegate.swift in Sources */,
+				105C6A892A1B9A5A00928F8A /* CombineDataModel.swift in Sources */,
 				105C6A6B2A1B7FCF00928F8A /* SceneDelegate.swift in Sources */,
 				105C6A802A1B886F00928F8A /* UrlsList.swift in Sources */,
 				105C6A872A1B8C1B00928F8A /* UsersModel.swift in Sources */,

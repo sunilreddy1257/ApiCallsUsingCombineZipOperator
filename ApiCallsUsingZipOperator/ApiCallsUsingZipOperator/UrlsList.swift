@@ -8,6 +8,6 @@
 import Foundation
 
 struct UrlsList {
-    static let usersList = ""
-    static let postsList = ""
+    static let usersList = "https://jsonplaceholder.typicode.com/users"
+    static let postsList = "https://jsonplaceholder.typicode.com/posts"
 }
