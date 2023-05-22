@@ -10,7 +10,7 @@ import Combine
 
 class ViewModel {
   
-    var allData: CombineDataModel?
+   @Published var allData: CombineDataModel?
     private var cancellable = Set<AnyCancellable>()
     func getData() {
         let publishers = Publishers.Zip(
